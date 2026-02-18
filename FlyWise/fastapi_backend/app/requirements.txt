@@ -1,0 +1,11 @@
+# This requirements file defines a FastAPI backend with image processing, OCR, AI-based text analysis, and MongoDB integration, with pinned versions for reproducibility
+fastapi==0.111.0 # modern Python web framework for building APIs, Built-in request validation, Async support
+python-multipart==0.0.9 # Required for handling file uploads (images, documents) 
+opencv-python==4.9.0.80 # Image processing (Preprocess images before OCR)
+pytesseract==0.3.10 # Python wrapper for Tesseract OCR; Extract text from images (Requires Tesseract binary installed on system)
+google-generativeai==0.5.4 # Google Gemini / Generative AI SDK
+pymongo==4.6.3 # Official MongoDB driver for Python
+
+uvicorn==0.29.0 # ASGI server that runs FastAPI apps, Uvicorn is required to serve FastAPI because FastAPI is ASGI-based
+pydantic==2.7.1 # Data validation, Type enforcement (data -> correct python type), Serialization / deserialization (data <-> json)
+numpy==1.26.4 # Efficient numerical operations
