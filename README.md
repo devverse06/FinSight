@@ -1,8 +1,7 @@
-# 💳 TransactionsMonitor
+# 💳 FinSight
 
 A full-stack web application for personal finance management using bank SMS image uploads.
 
-🔗 **[Live Preview](https://youtu.be/PCEbZhWWiHI)**
 
 ---
 
